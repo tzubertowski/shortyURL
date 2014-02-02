@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^(submit)/?$ submit.php [L]
+RewriteRule ^([A-Za-z0-9-]+)/?$ redirect.php?short=$1 [L]
+RewriteRule ^(([^/]+/)*[^.]+)$ /$1.php [L]

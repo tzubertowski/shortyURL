@@ -1,0 +1,98 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext');
+@import url('bootstrap.css');
+
+@font-face {
+    font-family: 'Entypo';
+    src: url('../fonts/entypo.eot');
+    src: url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/entypo.woff') format('woff'),
+         url('../fonts/entypo.ttf') format('truetype'),
+         url('../fonts/entypo.svg?#entypo') format('svg');
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+		margin: 0;
+		padding: 0;
+		background-image: url("../img/noise.png");
+		background-repeat: reapet;
+}
+
+.belka {
+	width: 100%;
+	height: 7px;
+	background-color: #46b08d;
+	border-bottom: 1px #247e5f solid;
+}
+
+
+form {
+    position: relative;
+}
+
+input[type='url']{
+    padding-left: 38px;
+    width: 400px;
+}
+
+input[type='text']{
+    width: 130px;
+}
+
+.bialak {
+	width: 550px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, 0.7);
+	background: rgba(255, 255, 255, 0.7);
+}
+
+h4 {
+    color: #46b08d;
+}
+
+.icon-link{
+    position: absolute;
+    top: 0;
+    left: 268px;
+    height: 46px;
+    line-height: 46px;
+    z-index: 1;
+}
+
+.icon-link:before {
+    font-family: 'Entypo';
+    content: "\e801";
+    color: #555;
+}
+
+icon-resize-small{
+    vertical-align: middle;
+}
+
+.icon-resize-small:before {
+    position: relative;
+    font-family: 'Entypo';
+    content: "\e800";
+    right: 1px;
+    line-height: 23px;
+}
+
+.all_center {
+    width:90%;
+    left: 5%;
+    top: 25%;
+    height:10%;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+button{
+    height: 46px;
+}
